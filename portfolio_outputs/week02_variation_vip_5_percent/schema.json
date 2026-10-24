@@ -1,0 +1,31 @@
+{
+  "numeric": [
+    "age",
+    "duration",
+    "campaign",
+    "pdays",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed"
+  ],
+  "categorical": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "target": "y",
+  "allowed_target_values": [
+    "no",
+    "yes"
+  ]
+}

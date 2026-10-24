@@ -1,0 +1,18 @@
+{
+  "selected_model": "random_forest",
+  "test_default_threshold": {
+    "roc_auc": 0.8137133166534549,
+    "average_precision": 0.4902704732996346,
+    "precision_at_0.5": 0.43643122676579926,
+    "recall_at_0.5": 0.6325431034482759,
+    "f1_at_0.5": 0.5164980202375715
+  },
+  "capacity_decision": {
+    "threshold": 0.82394519498766,
+    "contact_rate": 0.05002428363283147,
+    "precision_at_capacity": 0.6383495145631068,
+    "recall_at_capacity": 0.2834051724137931,
+    "lift_at_capacity": 5.6653519417475735
+  },
+  "test_positive_rate": 0.11267605633802817
+}

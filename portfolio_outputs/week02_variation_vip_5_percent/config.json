@@ -1,0 +1,17 @@
+{
+  "project_name": "bank_marketing_vip_5_percent",
+  "data_file": "data/uci-bank-marketing/bank-additional-full.csv",
+  "official_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "target": "y",
+  "positive_label": "yes",
+  "leakage_columns": [
+    "duration"
+  ],
+  "test_size": 0.2,
+  "validation_size": 0.25,
+  "random_state": 42,
+  "contact_capacity": 0.05,
+  "original_capacity": 0.2,
+  "selection_metric": "average_precision",
+  "output_dir": "portfolio_outputs/week02_variation_vip_5_percent"
+}
